@@ -5,7 +5,7 @@ from blog_posts import blog_posts
 from utils.helper import is_valid_signature
 import git, os
 
-github_webhook_secret = os.environ['GITHUB_WEBHOOK_SECRET']
+github_webhook_secret = os.environ.get('GITHUB_WEBHOOK_SECRET', '')
 app = Flask(__name__)
 
 @app.route('/update_from_github', methods=['POST'])
