@@ -2,13 +2,21 @@ from flask import Flask, render_template, abort, request
 from jobs import jobs
 from summaries import initial_summary
 from blog_posts import blog_posts
-import git
+from utils.helper import is_valid_signature
+import git, os
 
+github_webhook_secret = os.environ['GITHUB_WEBHOOK_SECRET']
 app = Flask(__name__)
 
 @app.route('/update_from_github', methods=['POST'])
 def webhook():
     if request.method == 'POST':
+        x_hub_signature = request.headers.get('X-Hub-Signature')
+        # webhook content type should be application/json for request.data to have the payload
+        # request.data is empty in case of x-www-form-urlencoded
+        if not is_valid_signature(x_hub_signature, request.data, github_webhook_secret):
+            print('Deploy signature failed: {sig}'.format(sig=x_hub_signature))
+            abort("Invalid secret from GitHub")
         repo = git.Repo('mysite/stevewatson.uk', search_parent_directories=True)
         repo.head.reset(index=True, working_tree=True)
         origin = repo.remotes.origin
