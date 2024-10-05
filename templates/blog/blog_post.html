@@ -1,0 +1,34 @@
+{% extends 'blog/blog_base.html' %}
+
+{% block content %}
+
+<section id="blog" class="py-5">
+    <div class="container">
+        <div class="tags mt-3">
+            <div>
+                {% for tag in blog_post.tags %}
+                    <span class="badge bg-secondary me-1">{{ tag }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        <h2 class="text-center pt-5">{{blog_post.title}}</h2>
+        <div class="text-center mb-5">{{blog_post.summary}}</div>
+        <div class="col-md-12 blog-col">
+            <div class="card">
+                <img class="card-img-top" src="{{ blog_post.image }}" alt="{{blog_post.image_caption}}">
+                {% if blog_post.image_caption %}<span class="badge bg-secondary position-absolute top-0 end-0 m-2">{{ blog_post.image_caption }}</span>{% endif %}
+              <div class="card-body">
+                {{ blog_post.contents | safe }}
+              </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <a href="/blog" class="btn btn-dark">Back to Blog</a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+{% endblock %}

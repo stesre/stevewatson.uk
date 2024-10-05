@@ -1,0 +1,31 @@
+{% extends 'blog/blog_base.html' %}
+
+{% block content %}
+
+<section id="blog-list" class="py-5 mb-5">
+    <div class="container mb-5">
+      <h2 class="text-center mt-5 pt-5">Technical Blog</h2>
+      <div class="text-center mb-5">Please feel free to browse and read through some of my blog stories</div>
+      <div class="row">
+        {% for blog in blog_posts %}
+        <div class="col-md-4 blog-col">
+          <div class="card">
+            <img class="card-img-top" src="{{ blog.image }}" alt="{{blog.image_caption}}">
+            <div class="card-body">
+              <div class="tags mt-2">
+                {% for tag in blog.tags %}
+                    <span class="badge bg-secondary me-1">{{ tag }}</span>
+                {% endfor %}
+             </div>
+              <h5 class="card-title">{{ blog.title }}</h5>
+              <p class="card-text">{{ blog.summary }}</p>
+              <a href="/blog/{{blog.slug}}" class="btn btn-dark">Read More</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  {% endblock %}

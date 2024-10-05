@@ -1,0 +1,124 @@
+/* Custom CSS for Cover Page */
+body, html {
+    height: 100%;
+}
+
+.cover-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.cover-container div {
+    width: 80%; /* Adjust the percentage as needed */
+    max-width: 1200px; /* Optional: set a maximum width for larger screens */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1300;
+    /* background-color: #007bff; */
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #333333;
+}
+
+.summary-text {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.timeline-section {
+    margin: 50px 0;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+.timeline-item h5 {
+    color: #007bff;
+}
+
+.tech-logos img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px;
+}
+
+.job-image {
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+.accordion-button {
+    font-weight: 600;
+    z-index: 1000; /* Lower z-index for the accordion */
+}
+.accordion-item {
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FFFFFF;
+    background-color: #333333;
+}
+
+.accordion-button::after {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+.accordion-body ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.accordion-body ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.accordion-body ul li::before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: #333333;
+    font-weight: bold;
+}
+.accordion {
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.blog-list.card-img-top {
+    max-width: fit-content;
+}
+
+.blog-col {
+    margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    /* background-color: #333333; */
+    color: white;
+    text-align: center;
+}

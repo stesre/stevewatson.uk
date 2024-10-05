@@ -1,0 +1,142 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="cover-container" id="about">
+    <div class="pt-5 mt-5">
+        <img src="https://media.licdn.com/dms/image/v2/D4E03AQHWMEPM1rKewg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727961463332?e=1733356800&v=beta&t=oR7KE3HOdb4ZSpYIxKPZsuDsWBjNd-5e2gbJqvd6b3M" alt="Profile Photo" class="profile-photo">
+        <h1 class="mt-4">{{first_name}} {{last_name}}</h1>
+        <p class="summary-text">{{initial_summary_text | safe}}</p>
+    </div>
+</div>
+<!-- Technologies Section -->
+<span id="tech"></span>
+<div class="container text-center">
+    <h2 class="mt-5 pt-5">Tools and Technologies I Use</h2>
+    <span class="mb-5">These are <i>some</i> of the tools and technologies that I know very well, and have used on a daily basis</span>
+    <div class="tech-logos mt-5">
+        <div class="row p-3">
+            <div class="col-lg-4 col-sm-12">
+                <h4><kbd>Cloud Providers</kbd></h4>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2xQcwKitRgXfqdi34DYlocPSEXD2G2zZipg&s" alt="Amazon Web Services" title="Amazon Web Services">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8BogQa-bVz7E1pqETsf7eQORJhm9JoOt3Xw&s" alt="Google Cloud Platform" title="Google Cloud Platform">
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <h4><kbd>CI/CD</kbd></h4>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" title="Jenkins">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bamboo/bamboo-original.svg" alt="Bamboo" title="Bamboo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/GitLab_logo.svg/2560px-GitLab_logo.svg.png" alt="Gitlab" title="Gitlab">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzUGaE5nghMUKVGrRNr2TBsDNFOHqgoWrlgA&s" alt="Octopus Deploy" title="Octopus Deploy">
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <h4><kbd>Infrastructure as Code / Configuration as Code (IaC, CaC)</kbd></h4>
+                <img src="https://cdn.prod.website-files.com/5f10ed4c0ebf7221fb5661a5/5f2f44a3fe54f0baba461524_terraform-logo.png" alt="Terraform" title="Terraform">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7bBTHkFC7StgjUadTqgxCpNMb4Nej4rHdhw&s" alt="Terragrunt" title="Terragrunt">
+                <img src="https://www.puppet.com/sites/default/themes/custom/puppet/logo.svg" alt="Puppet" title="Puppet">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/832px-Ansible_logo.svg.png" alt="Ansible" title="Ansible">
+            </div>
+        </div>
+
+        <div class="row p-3">
+            <div class="col-lg-4 col-sm-12">
+                <h4><kbd>Source-Code Repositories</kbd></h4>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" title="GitHub">
+                <img src="https://www.svgrepo.com/show/349308/bitbucket.svg" alt="Bitbucket" title="BitBucket">
+            </div>
+            
+            <div class="col-lg-4 col-sm-12">
+                <h4><kbd>Programming Languages</kbd></h4>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python">
+                <img src="https://miro.medium.com/v2/resize:fit:600/1*i2skbfmDsHayHhqPfwt6pA.png" alt="Golang" title="Golang">
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <h4><kbd>Web Services</kbd></h4>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjLgsrRL2F-8cPQW3yuK4V29yWc0vBZxkjxA&s" alt="Nginx" title="Nginx">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvQZil2jfJXNQ42UTPQXuXkPUjRENXT4H1TQ&s" alt="Apache" title="Apache">
+            </div>
+        </div>
+        
+        <div class="row p-3">
+            <div class="col-lg-4 col-sm-12">
+                <h4><kbd>Observability and Alerting</kbd></h4>
+                <img src="https://imgix.datadoghq.com/img/about/presskit/logo-v/dd_vertical_white.png?auto=format&fit=max&w=847" alt="DataDog" title="DataDog">
+                <img src="https://newrelic.com/themes/custom/erno/assets/mediakit/new_relic_logo_vertical.png" alt="New Relic" title="New Relic">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGUxjtaFJ76OcfcQZ9B-Nose2CB0tLB6HutA&s" alt="Grafana" title="Grafana">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Splunk_logo.svg/512px-Splunk_logo.svg.png" alt="Splunk" title="Splunk">
+                <img src="https://download.logo.wine/logo/PagerDuty/PagerDuty-Logo.wine.png" alt="Pagerduty" title="Pagerduty">
+            </div>
+            
+            <div class="col-lg-4 col-sm-12">
+                <h4><kbd>Containerisation and Orchestration</kbd></h4>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" title="Kubernetes">
+                <img src="https://www.svgrepo.com/show/331370/docker.svg" alt="Docker" title="Docker">
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <h4><kbd>Frameworks</kbd></h4>
+                <img src="https://www.djangoproject.com/m/img/logos/django-logo-positive.png" alt="Django" title="Django">
+                <img src="https://img.stackshare.io/service/3301/locust-logo-orignal.png" alt="Locust" title="Locust">
+            </div>
+        </div>
+        
+        <div class="row p-3">
+            <div class="col-lg-4 col-sm-12">
+                <h4><kbd>Web Security Products</kbd></h4>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvaaS6cz2-k_AywDZ0twr_KFwOC5CHQPiFNA&s" alt="CloudFlare" title="CloudFlare">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwfQSduiVKNsXq1VMdXyohi1RL90x7puN8Xw&s" alt="Akamai" title="Akamai">
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <h4><kbd>Databases</kbd></h4>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1985px-Postgresql_elephant.svg.png" alt="PostgreSQL" title="PostgreSQL">
+                <img src="https://www.svgrepo.com/show/303251/mysql-logo.svg" alt="MySQL" title="MySQL">
+                <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="Microsoft SQL Server" title="Microsoft SQL Server">
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <h4><kbd>Communication, Documentation and Task Management</kbd></h4>
+                <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/306_Slack_logo-512.png" alt="Slack" title="Slack">
+                <img src="https://download.logo.wine/logo/Microsoft_Teams/Microsoft_Teams-Logo.wine.png" alt="Teams" title="Teams">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1200px-Notion-logo.svg.png" alt="Notion" title="Notion">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Atlassian_Confluence_2017_logo.svg/2560px-Atlassian_Confluence_2017_logo.svg.png" alt="Confluence" title="Confluence">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Jira_Logo.svg/2560px-Jira_Logo.svg.png" alt="Jira" title="Jira">
+            </div>
+        </div>
+        <div class="row p-3">
+            <div class="col-lg-4 col-sm-12">
+                <h4><kbd>IDEs</kbd></h4>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png" alt="Visual Studio Code" title="Visual Studio Code">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/2048px-PyCharm_Icon.svg.png" alt="PyCharm" title="PyCharm">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Timeline Section -->
+<span  id="timeline"></span>
+<div class="container-fluid bg-light pb-3">
+    <h2 class="text-center pt-5 mt-5">My Experiences</h2>
+    <div class="text-center mb-5">Please find below summaries of what companies and projects i've been part of</div>
+    <div class="container">
+        <div class="accordion" id="employmentTimeline">
+            {% for job in jobs %}
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading{{loop.index}}">
+                    <button class="accordion-button {% if loop.index != 1 %} collapsed {%endif%}" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJob{{loop.index}}" {% if loop.index == 1 %} aria-expanded="true" {%else%} aria-expanded="false" {% endif %} aria-controls="collapseJob{{loop.index}}">
+                        <img src="{{job.job_image}}" class="job-image">{{job.job_title}}
+                    </button>
+                </h2>
+                <div id="collapseJob{{loop.index}}" class="accordion-collapse collapse {% if loop.index == 1 %} show {% endif %}" aria-labelledby="headingJob{{loop.index}}" data-bs-parent="#employmentTimeline">
+                    <div class="accordion-body">
+                        {{job.job_summary | safe}}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
