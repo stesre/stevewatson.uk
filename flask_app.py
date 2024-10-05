@@ -9,7 +9,8 @@ app = Flask(__name__)
 @app.route('/update_from_github', methods=['POST'])
 def webhook():
     if request.method == 'POST':
-        repo = git.Repo('./')
+        repo = git.Repo('mysite/stevewatson.uk', search_parent_directories=True)
+        repo.head.reset(index=True, working_tree=True)
         origin = repo.remotes.origin
         origin.pull()
         return 'Updated PythonAnywhere successfully', 200
