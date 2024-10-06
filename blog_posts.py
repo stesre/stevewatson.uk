@@ -59,7 +59,7 @@ blog_posts = [
             </ul>
             
             You may now be thinking, <i>That's great Steve! What did the company save by implementing this?</i><br/><br/>
-              By implementing a compute savings plan alone, the company approximately <b>$5k a month</b>. But the journey didn't end there.
+              By implementing a compute savings plan alone, the company saved approximately <b>$5k a month</b>. But the journey didn't end there.
             <br/><br/>
 
             <h4>Tackling Traffic Costs</h4>
