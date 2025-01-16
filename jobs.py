@@ -1,7 +1,7 @@
 jobs = [
     {
         "job_image": "/static/images/logos/qogita_logo.jpg",
-        "job_title": "Staff DevOps Engineer, Qogita - August 2023 to Present (Fully Remote)",
+        "job_title": "Staff DevOps Engineer, Qogita - August 2023 to Oct 2024 (Fully Remote)",
         "job_summary": """
             <ul>
             <li>Led the migration of applications hosted on EC2, Lambda, and ECS to EKS, unifying runtimes and streamlining operational processes.</li>
