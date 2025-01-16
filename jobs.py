@@ -1,6 +1,6 @@
 jobs = [
     {
-        "job_image": "https://media.licdn.com/dms/image/v2/C4E0BAQHymNJDvcCZ_w/company-logo_100_100/company-logo_100_100/0/1676903956799/qogita_logo?e=1735776000&v=beta&t=_noQUU8Qj1Tq7HLUr55IC6A3iAmHUc81OvmnXKK1d-o",
+        "job_image": "/static/images/logos/qogita_logo.jpg",
         "job_title": "Staff DevOps Engineer, Qogita - August 2023 to Present (Fully Remote)",
         "job_summary": """
             <ul>
@@ -14,7 +14,7 @@ jobs = [
         </ul>"""
     },
     {
-        "job_image": "https://media.licdn.com/dms/image/v2/C4E0BAQHymNJDvcCZ_w/company-logo_100_100/company-logo_100_100/0/1676903956799/qogita_logo?e=1735776000&v=beta&t=_noQUU8Qj1Tq7HLUr55IC6A3iAmHUc81OvmnXKK1d-o",
+        "job_image": "/static/images/logos/qogita_logo.jpg",
         "job_title": "Senior DevOps Engineer, Qogita - July 2022 to August 2023 (Fully Remote)",
         "job_summary": """
             <ul>
@@ -27,7 +27,7 @@ jobs = [
         </ul>"""
     },
     {
-        "job_image": "https://media.licdn.com/dms/image/v2/C560BAQHsPlWyC0Ksxg/company-logo_100_100/company-logo_100_100/0/1630669856291/coinbase_logo?e=1735776000&v=beta&t=lPABUbYVjdvgIAUIwXLoTxKa9neURPaXFBfKiYAx88s",
+        "job_image": "/static/images/logos/coinbase_logo.jpg",
         "job_title": "Site Reliability Engineer, Coinbase - January 2022 to June 2022 (Fully Remote)",
         "job_summary": """
             <ul>
@@ -40,7 +40,7 @@ jobs = [
         </ul>"""
     },
     {
-        "job_image": "https://media.licdn.com/dms/image/v2/C4E0BAQGHAEf_9qJOBw/company-logo_100_100/company-logo_100_100/0/1631364885684/bet365_logo?e=1735776000&v=beta&t=AedzOW5syGbsynxALJaeRoY48ZoxIaBS45gvNlf299Y",
+        "job_image": "/static/images/logos/bet365_logo.jpg",
         "job_title": "Site Reliability Engineer, bet365 - April 2020 to December 2021 (Fully Remote)",
         "job_summary": """
             <ul>
@@ -53,7 +53,7 @@ jobs = [
             </ul>"""
     },
     {
-        "job_image": "https://media.licdn.com/dms/image/v2/C4E0BAQGCehGpog1upQ/company-logo_100_100/company-logo_100_100/0/1640009821819/proact_international_logo?e=1735776000&v=beta&t=BDf0wSGdkXYfdz4-dGpCnVuzDxaQU9IoygkxH1-PxMI",
+        "job_image": "/static/images/logos/proact_international_logo.jpg",
         "job_title": "Senior Infrastructure Engineer, ProAct International Ltd - July 2019 to February 2020 (Part-Remote)",
         "job_summary": """
             <ul>
@@ -69,7 +69,7 @@ jobs = [
             </ul>"""
     },
     {
-        "job_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHgxjEQw6wa1w/company-logo_100_100/company-logo_100_100/0/1630574697381/intilery_com_logo?e=1735776000&v=beta&t=QHJ9JiPgg79faZeNSD6wmbNk0kNcQ3gh9tB-v1Hcv88",
+        "job_image": "/static/images/logos/intilery_com_logo.jpg",
         "job_title": "DevOps Engineer, Intilery - October 2018 to May 2019 (Part-Remote)",
         "job_summary": """
             <ul>
@@ -82,7 +82,7 @@ jobs = [
             </ul>"""
     },
     {
-        "job_image": "https://media.licdn.com/dms/image/v2/D4E0BAQHSYGTBK6Rmww/company-logo_100_100/company-logo_100_100/0/1684487483198/missguided_ltd_logo?e=1735776000&v=beta&t=VrcZ7pedkTZy-SX9prynVfyJNEmREliHDjwt3h6vTxM",
+        "job_image": "/static/images/logos/missguided_ltd_logo.jpg",
         "job_title": "IT Systems Administrator, Missguided - March 2016 to December 2016, and November 2017 to October 2018 (Part-Remote)",
         "job_summary": """
             <ul>
@@ -96,7 +96,7 @@ jobs = [
             </ul>"""
     },
     {
-        "job_image": "https://media.licdn.com/dms/image/v2/D4E0BAQHXNds8cmhqsg/company-logo_100_100/company-logo_100_100/0/1683034999808/content_catalyst_logo?e=1735776000&v=beta&t=7e_FVBF9NsuqJmoFzNuKD8z283kpqSeuIzeR5-ZA0Kg",
+        "job_image": "/static/images/logos/content_catalyst_logo.jpg",
         "job_title": "IT Systems Administrator, Publish Interactive - January 2015 to March 2016",
         "job_summary": """
             <ul>
@@ -112,7 +112,7 @@ jobs = [
             </ul>"""
     },
     {
-        "job_image": "https://media.licdn.com/dms/image/v2/D4E0BAQHXNds8cmhqsg/company-logo_100_100/company-logo_100_100/0/1683034999808/content_catalyst_logo?e=1735776000&v=beta&t=7e_FVBF9NsuqJmoFzNuKD8z283kpqSeuIzeR5-ZA0Kg",
+        "job_image": "/static/images/logos/content_catalyst_logo.jpg",
         "job_title": "Technical Support Engineer, Publish Interactive - January 2014 to January 2015",
         "job_summary": """
             <ul>
@@ -125,7 +125,7 @@ jobs = [
             </ul>"""
     },
     {
-        "job_image": "https://m247.com//app/themes/m247/static/images/m247-logo_dark.svg",
+        "job_image": "/static/images/logos/m247-logo_dark.svg",
         "job_title": "Technical Support, M247 Ltd - August 2011 to December 2013",
         "job_summary": """
             <ul>
