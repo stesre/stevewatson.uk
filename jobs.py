@@ -1,6 +1,6 @@
 jobs = [
     {
-        "job_image": "/static/images/logos/qogita_logo.jpg",
+        "job_image": "/static/images/logos/sailpoint_logo.png",
         "job_title": "Staff DevOps Engineer, Sailpoint - January 2025 to June 2026 (Fully Remote)",
         "job_summary": """
             <ul>
