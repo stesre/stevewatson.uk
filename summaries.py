@@ -1,5 +1,5 @@
 initial_summary = """
-<b>Hello! I'm Steve, and I am an accomplished IT professional with over 12 years of experience.</b>
+<b>Hello! I'm Steve, and I am an accomplished IT professional with over 13 years of experience.</b>
 <br/>  I love bringing
 <kbd>automation <i class="bi bi-building-fill-gear"></i></kbd>,
 <kbd>cloud architecture <i class="bi bi-cloud-fill"></i></kbd>,
