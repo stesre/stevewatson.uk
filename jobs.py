@@ -1,6 +1,24 @@
 jobs = [
     {
         "job_image": "/static/images/logos/qogita_logo.jpg",
+        "job_title": "Staff DevOps Engineer, Sailpoint - January 2025 to June 2026 (Fully Remote)",
+        "job_summary": """
+            <ul>
+            <li>Led and completed an EBS volume resizing optimisation project that reduced AWS costs by at least $30,000 per month.</li>
+            <li>Participated in a 24/7 on-call rota, deepening platform knowledge and improving incident response time and quality.</li>
+            <li>Worked across teams to identify and remediate issues found during on-call incidents, then drove incident reviews and tracked RCA follow-up actions through to delivery.</li>
+            <li>Increased visibility and observability for critical Kubernetes services across EKS clusters.</li>
+            <li>Introduced SLOs and became the team SME for Grafana, Prometheus, and service metrics.</li>
+            <li>Designed controlled AI-assisted operational workflows with validation guardrails to produce deterministic, repeatable outputs for incident investigation and remediation.</li>
+            <li>Led Terraform onboarding projects with the team into Spacelift, enabling automated plan/apply workflows through human-gated PR review controls.</li>
+            <li>Authored clear runbooks and how-to documentation to improve operational consistency and team onboarding.</li>
+            <li>Wrote Python automation to support deterministic investigations and quickly summarise production issues.</li>
+            <li>Mentored engineers, reviewed PRs, and provided technical guidance to improve delivery quality.</li>
+            <li>Contributed to interview processes for new engineering hires.</li>
+        </ul>"""
+    },
+    {
+        "job_image": "/static/images/logos/qogita_logo.jpg",
         "job_title": "Staff DevOps Engineer, Qogita - August 2023 to Oct 2024 (Fully Remote)",
         "job_summary": """
             <ul>
